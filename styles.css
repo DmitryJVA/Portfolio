@@ -1,0 +1,214 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+   
+  
+
+}
+
+.hero {
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    padding: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+
+li {
+
+    text-decoration: none;
+
+}   
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2{
+    font-size: 60px;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+.sub-text{
+font-size: 15px;
+font-weight: 300;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: #ff7f50;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #ffb296;
+}
+
+.button:active{
+    background-color: #aeaeae;
+    color: #252525;
+}
+
+.socials{
+    padding-bottom: 200px;
+}
+
+.logo{
+    height: 80px;
+    margin: 30px;
+}
+
+.social{
+    margin: 30px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+.headshot{
+    width: 450px;
+    border-radius: 225px;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.project-card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 50px rgb(192, 192, 192);
+}
+
+.project-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+@media only screen and (max-width :1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image{
+    margin-top: 25px;
+    width: 250px;
+    border-radius:  125px; ;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: #252525;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger:focus{
+    outline:0;
+}
+
+@media only screen and (max-width :1000px){
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+    ul{
+        display: none;
+        background-color: #6b6b6b;
+        margin: 0px;
+    }
+    ul.show{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #6b6b6b
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
